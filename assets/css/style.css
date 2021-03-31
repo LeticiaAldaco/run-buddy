@@ -12,7 +12,9 @@ body {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   header a {
@@ -24,7 +26,6 @@ body {
     background-color: #39a6b2;
   }
   header nav {
-    float: right;
     margin: 7px 0;
   }
   header nav ul li {
